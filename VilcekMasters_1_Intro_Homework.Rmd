@@ -31,6 +31,23 @@ nyc <- read.csv("https://raw.githubusercontent.com/fredlapolla/RVilcekMaster23/m
 
 ```
 
+>- What is a directory? How can you look up the current directory in which you are working in R?
+
+```{r}
+
+```
+
+
+>- How does one read in a CSV file of data into R?
+
+```{r}
+
+```
+
+>- What are reasons one would choose to use R for data analysis?
+
+
+###################################################################OPTIONAL###################################################################################################################
 
 >- Find summary information about the total blood mercury levels in our NYC HANES data (hint: names(nyc) will call the names of each column). What is the max value, what is the minimum value.  
 
@@ -53,18 +70,7 @@ nyc <- read.csv("https://raw.githubusercontent.com/fredlapolla/RVilcekMaster23/m
 ```
 
 
->- What is a directory? How can you look up the current directory in which you are working in R?
 
-```{r}
-
-```
-
-
->- How does one read in a CSV file of data into R?
-
-```{r}
-
-```
 
 
 >- What two commands are needed to install and use a package in R?
@@ -73,6 +79,5 @@ nyc <- read.csv("https://raw.githubusercontent.com/fredlapolla/RVilcekMaster23/m
 
 ```
 
->- What are reasons one would choose to use R for data analysis?
 
 
