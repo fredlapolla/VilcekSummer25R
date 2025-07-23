@@ -1,0 +1,122 @@
+---
+title: "Masters Homework 3"
+author: "Fred LaPolla"
+date: "7/28/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Use by() to find the average cholsterol level by hsq_1 status (e.g. hsq_1 level1: X mg; Level2: Y mg....):
+
+```{r}
+
+```
+
+
+
+>- Subset to only have females (gender == "Female")
+
+```{r}
+
+```
+
+
+
+
+>- Create a subset of males and find the median total cholesterol level
+
+```{r}
+
+```
+
+
+>- Try to create a summary of the mean A1C using two factors, GENDER and DX_DBTS
+
+```{r}
+
+```
+
+Find the class of the first three columns of data. What are they?
+
+```{r}
+
+```
+
+How does R treat blank values?
+
+What command can be used to identify where NAs are located in a column?
+
+```{r}
+
+```
+
+
+How can you use indexing to create a subset without any NAs?
+
+```{r}
+
+```
+
+How could you delete a column of data, for example, the 5th 
+```{r}
+
+```
+
+
+What command would let you find a set of text in the cells of a column?
+
+```{r}
+
+```
+
+
+Rename the HSQ1 variable to Health_Status
+
+```{r}
+
+```
+
+Explore the Mutate command and create a ratio of total cholesterol divided by HDL
+
+```{r}
+
+```
+
+
+Use the Synthetic Mass Data:
+
+Make a subset of Patient data to have patient ID, sex/gender, race and ethnicity. 
+
+```{r}
+
+```
+
+Make a subset of observation data for body weight and body height, and filter to have only the most recent of each. 
+
+```{r}
+
+```
+
+Convert the body weight and height tables to wide format. 
+
+```{r}
+
+```
+
+Merge the body weight and height information onto your demographic dataframe created in question one. 
+
+```{r}
+
+```
+
+Calculate BMI into a new column. The equation is weight (kg)/height ^2 (m)
+
+```{r}
+
+```
+
+
