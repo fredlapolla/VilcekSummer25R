@@ -1,0 +1,62 @@
+---
+title: "Masters Homework 4"
+author: "Fred LaPolla"
+date: "8/4/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+1. Why would one use a visualization for exploratory analysis?
+
+
+
+7.2What information about the nature of our data can a histogram tell us?
+
+
+
+3. Make a histogram on LEAD from the nyc data frame. Is it skewed? Which way? 
+
+```{r}
+
+```
+
+4. Make a QQPlot to assess the normality UCREATININE. Is the distribution normal? How can you tell?
+
+```{r}
+
+```
+
+5. Make a boxplot glucose levels by diabetes diagnosis:
+
+```{r}
+
+
+```
+
+6. Make a scatterplot of total cholesterol by LDL. Does there appear to be a relationship?
+
+```{r}
+
+```
+
+7. 
+
+
+Pull in this data, https://raw.githubusercontent.com/fredlapolla/VilcekSummerDataAnalysis2024/master/elife-32032-fig2-data1_CSV.csv, which is from this paper:
+
+Piechura JR, Amarnath K, O'Shea EK. Natural changes in light interact with circadian regulation at promoters to control gene expression in cyanobacteria. Elife. 2017 Dec 14;6:e32032. doi: 10.7554/eLife.32032. PMID: 29239721; PMCID: PMC5785211.
+
+Make a heatmap of the pearson's R correlation of genes that are expressed such that the rowSums are greater than 100. 
+
+```{r}
+
+```
+
+
