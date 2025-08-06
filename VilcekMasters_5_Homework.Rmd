@@ -1,0 +1,58 @@
+---
+title: "Masters Homework 5"
+author: "Fred LaPolla"
+date: "8/11/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+ 
+
+
+
+
+```{r}
+nyc <- read.csv("https://raw.githubusercontent.com/fredlapolla/VilcekSummerDataAnalysis2024/main/NYC_HANES_DIAB.csv")
+```
+
+
+
+>- Using GGplot, make a boxplot of A1C by diabetes diagnosis. Would you assume the three groups have the same A1C level? 
+
+```{r}
+
+```
+
+
+>- Use ggplot2 to make a scatter plot of A1C by glucose levels.
+
+```{r}
+
+```
+
+
+>- Add coloration by gender for the above scatter plot and change the background theme to the minimal option. Change the X axis to label numbers by increments of 3. 
+
+```{r}
+
+```
+
+>- Create a GGPlot chart of Lead vs. Cotinine and show two different themes for the background. 
+
+```{r}
+
+```
+
+>- Make bar charts of mean Glucose level by diabetes diagnosis. Add error bars.
+
+```{r}
+
+```
+
+
+>- Where could you go to look up other Geom shapes for different types of charts?
+
+
