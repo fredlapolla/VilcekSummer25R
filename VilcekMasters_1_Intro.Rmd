@@ -12,7 +12,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # R for Analysis
 
-Here's a note added for GitHub, here's hoping I delete it by 2026
 
 *** 
 
